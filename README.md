@@ -5,4 +5,4 @@ Built with Flask, SQLite, jQuery, HTML, CSS.
 
 For more info, please refer to report.pdf.
 
-Front end is finished by @hh1680651
+Front end is finished by @[hh1680651](https://github.com/hh1680651)

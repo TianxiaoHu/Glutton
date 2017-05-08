@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+  <meta http-equiv="pragma" content="no-cache"/>
+
+  <link crossorigin="anonymous" href="../static/css/main_1.css" media="all" rel="stylesheet">
+  <link crossorigin="anonymous" href="../static/css/main_2.css" media="all" rel="stylesheet">
+  <link crossorigin="anonymous" href="../static/css/main_3.css" media="all" rel="stylesheet">
+  <link rel="icon" href="static/img/Glutton.ico" type="image/x-icon"/>  
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>My Profile</title>
+ 
+
+  </head>
+
+ 
+    
+
+
+<!-- start of header -->
+  <body class="logged-out env-production emoji-size-boost page-responsive min-width-0 f4 site-header-dark">
+    
+
+
+  <div class="position-relative js-header-wrapper ">
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress" style="transition: width 0.4s ease 0s; width: 100%;"></div></div>
+
+
+<div class="header" role="banner" style="background-color: #3498db">
+  <div class="container clearfix">
+    <a class="header-logo-invertocat" href="#" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+          <img src="../static/img/Glutton.png" aria-hidden="true" class="octicon" height="35" version="1.1" viewBox="0 0 16 16" width="35" position-relative="-50px -100px"/>
+</a>
+
+
+        
+
+
+      <ul class="header-nav float-left" role="navigation">
+        <li class="header-nav-item selected">
+          <a id="navi_home_page" aria-label="Pull requests you created" class="selected  js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" >
+            Home
+</a>        </li>
+        <li class="header-nav-item">
+          <a id="navi_my_profile" aria-label="Issues you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" style="color: #222">
+            Profile
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" id="navi_my_orders" data-ga-click="Header, go to gist, text:gist">Orders</a>
+          </li>
+      </ul>
+
+    
+
+<ul class="header-nav user-nav float-right" id="user-links">
+<il>
+
+<div class="header-search   js-site-search" role="search">
+  <div accept-charset="UTF-8" class="js-site-search-form" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+      <input  type="text" id="search_block_in_search_results" class="form-control header-search-input js-site-search-focus " name="q_navi" value="" placeholder="Search Glutton" aria-label="Search Glutton" data-unscoped-placeholder="Search Glutton" data-scoped-placeholder="Search" autocapitalize="off">
+    </label>
+</div></div>
+</il>
+<li class="header-nav-item selected">
+          <a id="navi_search_home_page" aria-label="Pull requests you created" class="selected  js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" >
+            Search
+</a>        </li>
+        <li class="header-nav-item selected">
+          <a href="front_page" id="navi_home_page" aria-label="Pull requests you created" class="selected  js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" >
+            Sign Out
+</a>        </li>
+</ul>
+
+</div>
+</div>
+
+
+      
+
+  </div>
+
+
+  <!-- end of header -->
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+      <div id="js-pjax-container" data-pjax-container="">
+        
+
+<div class="page-content container clearfix">
+  
+
+<dl class="form-group edit-profile-avatar mr-4 float-left">
+  <dt><label for="upload-profile-picture">Profile picture</label></dt>
+  <dd class="avatar-upload-container clearfix">
+    <img alt="@hh1680651" class="avatar rounded-2" height="200" id="avatar" src="../static/img/avatars/.jpg" width="200">
+    <div class="avatar-upload">
+      <label id="change_avatar" class="position-relative btn button-change-avatar mt-3 width-full text-center">
+        Change Avatar
+      </label>
+
+      <div class="upload-state loading">
+        <button type="button" class="btn mt-3 width-full text-center" disabled="">
+          <img alt="" class="v-align-text-bottom" height="16" width="16"> Uploading...
+        </button>
+      </div>
+
+    </div>
+    <br/>
+    <nav class="menu" data-pjax="">
+    <h3 class="menu-heading">
+      Personal settings
+    </h3>
+
+    <a id="menu-list" class="js-selected-navigation-item selected menu-item" data-selected-links="avatar_settings /settings/profile">YourBasicProfile</a>
+    <a id="menu-list" class="js-selected-navigation-item menu-item" data-selected-links=" /settings/admin">ChangePassword</a>
+    <a id="menu-list" class="js-selected-navigation-item menu-item" data-selected-links=" /settings/emails">SignOut</a>
+  </nav> 
+  </dd>
+</dl>
+
+
+<!-- BLOCK 1 : PROFILE START-->
+<div id="YourBasicProfile" name="display" style="display:;">
+
+  <div class="col-9 float-left">    
+  <div class="Subhead mt-0 mb-0">
+    <h2 class="Subhead-heading">Your basic profile</h2>
+  </div>
+
+  <!-- <form accept-charset="UTF-8" class="columns js-uploadable-container js-upload-avatar-image is-default" data-alambic-owner-id="23527044" data-alambic-owner-type="User" novalidate="novalidate"> -->
+
+  <div style="margin:0;padding:0;display:inline">
+  </div>
+      <div class="column two-thirds">
+          <dl class="form-group">
+            <dt><label>Change your Nickname</label></dt>
+            <dd><input class="form-control" id="user_profile_name" size="30" placeholder="Input a new Nickname" type="text" value=""></dd>
+          </dl>
+        <dl class="form-group">
+          
+        <dl class="form-group">
+            <dt><label>Change your address</label></dt>
+            <dd><input placeholder="Input your address" class="form-control" id="user_profile_birthday" size="30" type="text" value=""></dd>
+          </dl>
+          <dt><label>Change your appellation</label></dt>
+            <dd><input placeholder="What's your appellation?" class="form-control" id="customer_appellation" size="30" type="text" value=""></dd>
+          </dl>
+        <dl class="form-group">
+          <dt><label>Change your personal description</label></dt>
+          <dd class="user-profile-bio-field-container js-suggester-container js-length-limited-input-container">
+            <textarea class="form-control user-profile-bio-field js-suggester-field js-length-limited-input" cols="40" data-input-max-length="160" data-warning-text="{{remaining}} remaining" id="user_profile_add" placeholder="Tell a little about yourself" rows="20"></textarea>
+            <!-- <p class="note">
+              Please make sure we can reach you via this address.
+            </p> -->
+            <p class="js-length-limited-input-warning user-profile-bio-message d-none"></p>
+            <div class="suggester-container">
+              <div class="suggester js-suggester js-navigation-container" >
+              </div>
+            </div>
+          </dd>
+        </dl>
+        <p><button class="btn" id="upload_your_profile">Update profile</button></p>
+      </div>
+  <!-- </form>   -->
+
+</div>
+</div>
+<!-- BLOCK 1 : PROFILE END-->
+
+<!-- BLOCK 2 : CHANGE PASSWORD START-->
+<div id="ChangePassword" style="display:none;">
+  <div class="col-9 float-left">
+    
+
+    <div class="Subhead">
+      <h2 class="Subhead-heading">Change password</h2>
+    </div>
+
+
+    <!-- Change Password -->
+    <!-- '"` --><!-- </textarea></xmp> -->
+    <!-- <form accept-charset="UTF-8" class="edit_user" id="change_password"> -->
+    <!-- <div style="margin:0;padding:0;display:inline">
+    </div> -->
+    <div class="column two-thirds">
+      <dl class="form-group password-confirmation-form">
+        <dt><label for="user_old_password">Old password</label></dt>
+        <dd><input placeholder="Input your old password" class="form-control form-control" id="user_old_password" name="user[old_password]" required="required" tabindex="2" type="password"></dd>
+      </dl>
+      <dl class="form-group password-confirmation-form">
+        <dt><label for="user_new_password">New password</label></dt>
+        <dd><input placeholder="input your new password" class="form-control form-control" id="user_new_password" name="user[password]" required="required" tabindex="2" type="password"></dd>
+      </dl>
+      <dl class="form-group password-confirmation-form">
+        <dt><label for="user_confirm_new_password">Confirm new password</label></dt>
+        <dd><input placeholder="confirm your new password" class="form-control form-control" id="user_confirm_new_password" name="user[password_confirmation]" required="required" tabindex="2" type="password"></dd>
+      </dl>
+      <p>
+        <button class="btn mr-2" id="change_password">Update password</button>
+        <span><a onclick="hhhhh()">I forgot my password</a></span>
+      </p>
+      <div id="hhhhh" style="display: none;">hahahahahahahahaha...</div>
+</div>
+<!-- </form>       -->
+</div>
+</div>
+<!-- BLOCK 2 : CHANGE PASSWORD END-->
+
+<!-- BLOCK 4 : DELETE ACCOUNT START-->
+<div id="SignOut" style="display:none;">
+    <div class="Subhead Subhead--spacious">
+      <h2 class="Subhead-heading Subhead-heading--danger">Sign out</h2>
+    </div>
+      <p>Before you signout, please remember your mobile and password, you'll need it next time.</p>
+
+      <p><a href="front_page" class="btn btn-danger" tabindex="4">Sign out</a></p>
+
+</div>
+<!-- BLOCK 4 : DELETE ACCOUNT END-->
+
+
+
+</div>
+
+<!-- start footer -->
+<div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links">
+      <li>© <span> Copyright:</span></li>
+        <li><a href="Mailto:14300240007@fudan.edu.cn" data-ga-click="Footer, go to terms, text:terms">Tianxiao Hu</a></li>
+        <li><a href="Mailto:14300240009@fudan.edu.cn" data-ga-click="Footer, go to privacy, text:privacy">Haohan Zhang</a></li>
+        <li><a href="Mailto:15307130385@fudan.edu.cn" data-ga-click="Footer, go to security, text:security">Jingyuan Liu</a></li>
+      <span>  Group: Glutton;</span></li> Course Project #1 for Introduction to Database Systems(COMP130010.03)@ Fudan University, 2017 Spring. <span>Professor:</span></li>
+      <li><a href="http://www.cs.fudan.edu.cn/?page_id=2439###" data-ga-click="Footer, go to status, text:status">Wei Wang</a>;</li>  
+    </ul>
+  </div>
+</div>
+<!-- end footer -->
+</div>
+<link crossorigin="anonymous" href="../static/css/sweetalert.css" media="all" rel="stylesheet">
+<script src="../static/js/sweetalert.min.js"></script> 
+
+    <script src="../static/js/jquery-3.1.1.min.js"></script>
+    <script src="../static/js/your_profile.js"></script>
+    
+    
+
+
+
+  
+
+</body></html>

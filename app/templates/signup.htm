@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+  <meta http-equiv="pragma" content="no-cache"/>
+
+  <link crossorigin="anonymous" href="../static/css/main_1.css" media="all" rel="stylesheet">
+  <link crossorigin="anonymous" href="../static/css/main_2.css" media="all" rel="stylesheet">
+  <link crossorigin="anonymous" href="../static/css/main_3.css" media="all" rel="stylesheet">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="static/img/Glutton.ico" type="image/x-icon"/>  
+
+  <title>Sign up to Glutton</title>
+
+  
+
+
+
+  <meta name="viewport" content="width=device-width">
+
+
+</head>
+
+<body class="logged-out env-production emoji-size-boost page-responsive min-width-0 f4 site-header-dark">
+    
+
+
+  <div class="position-relative js-header-wrapper ">
+    
+
+    
+    
+    
+
+
+
+
+
+
+          <header class="site-header js-details-container Details" role="banner" >
+  <div class="container-responsive">
+    <a class="header-logo-invertocat" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <img src="../static/img/Glutton.png" aria-hidden="true" class="octicon" height="35" version="1.1" viewBox="0 0 16 16" width="35" position-relative="-50px -100px"/>
+
+    </a>
+    <div class="site-header-menu">
+    
+      <nav class="site-header-nav">
+        <a href="#" id="navi" class="js-selected-navigation-item selected nav-item" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features">Customer</a>        
+        <a name="Business" href="#" id="navi" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">Business</a>        
+        <a href="#" id="navi" onclick="function(){swal('Sign in first!');}" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">Home Page</a>        
+        <a href="#" id="navi" onclick="function(){swal('Sign in first!');}"  class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing">My Order</a>
+      </nav>
+
+      <div class="site-header-actions">
+
+          <a class="text-bold site-header-link" href="signin" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+            <span class="text-gray">or</span>
+            <a class="text-bold site-header-link" href="signup" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+  <div role="main" >
+        
+
+<div class="jumbotron jumbotron-home" style="height:750px;background-image: url(../static/img/signup.bmp);background-repeat: no-repeat;background-size: 100% 100%;">
+  <div class="container-responsive position-relative">
+    <div class="d-md-flex flex-items-center gut-lg">
+      <div class="col-md-7 text-md-left" style="color: #666666;">
+        <h1 class="alt-h0 lh-condensed-ultra mb-3" style="color: #CC0099;"><strong>Welcome to Glutton!!</strong></h1>
+        <p class="f3-light mb-4">
+          Glutton is a very incredible website which is developed by Tianxiao Hu, Haohan Zhang, Jingyuan Liu. Glutton is a project for the course of Introduction to Database Systems (COMP130010.03) @ Fudan University.
+        </p>
+      </div>
+        <div class="col-md-5">
+          <div class="hide-sm">
+            <!-- '"` --><!-- </textarea></xmp> -->
+            <!-- <form accept-charset="UTF-8" autocomplete="off" class=""><div style="margin:0;padding:0;display:inline"> -->
+            <dl class="form">
+                <dd>
+                <br/>
+                  <label class="text-shadow-light sr-only">Pick a nickname</label>
+                  <input type="text" name="user[login]" id="user[login]" class="form-control form-control-lg input-block" placeholder="Pick a username" autofocus=""></input>
+                </dd>
+              </dl>
+              <dl class="form" id="mobile_input">
+                <dd>
+                  <label class="form-label text-shadow-light sr-only">Enter your mobile number</label>
+                  <input type="text" name="user[email]" id="user[email]" class="form-control form-control-lg input-block js-email-notice-trigger is-autocheck-errored" placeholder="Your mobile number">
+                </dd>
+              </dl>
+              <dl class="form">
+                <dd>
+                  <label class="form-label text-shadow-light sr-only">Create a password</label>
+                  <input type="password" name="user[password]" id="user[password]" class="form-control form-control-lg input-block is-autocheck-loading is-autocheck-successful" placeholder="Create a password">
+                </dd>
+                <p class="form-control-note"></p>
+              </dl>
+
+
+              <button onclick="signup()" class="btn btn-orange btn-large f4 btn-block">Sign up for Glutton</button>
+              <p class="form-control-note text-center">
+                One mobile number should have only one chance to sign up our Website.
+                <a class="text-white" href="#" target="_blank">Forget your password?</a>
+              </p>
+<!-- </form>         -->
+  </div>
+          <div class="d-sm-none text-center">
+            <a onclick="signup()" class="btn btn-primary btn-large border-0" rel="nofollow">Sign up for Glutton</a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+<!-- start footer -->
+<div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links">
+      <li>© <span> Copyright:</span></li>
+        <li><a href="Mailto:14300240007@fudan.edu.cn" data-ga-click="Footer, go to terms, text:terms">Tianxiao Hu</a></li>
+        <li><a href="Mailto:14300240009@fudan.edu.cn" data-ga-click="Footer, go to privacy, text:privacy">Haohan Zhang</a></li>
+        <li><a href="Mailto:15307130385@fudan.edu.cn" data-ga-click="Footer, go to security, text:security">Jingyuan Liu</a></li>
+      <span>  Group: Glutton;</span></li> Course Project #1 for Introduction to Database Systems(COMP130010.03)@ Fudan University, 2017 Spring. <span>Professor:</span></li>
+      <li><a href="http://www.cs.fudan.edu.cn/?page_id=2439###" data-ga-click="Footer, go to status, text:status">Wei Wang</a>;</li>  
+    </ul>
+  </div>
+</div>
+<!-- end footer -->
+</div>
+
+
+
+    <style>
+    .cls-1{isolation:isolate;}
+    .cls-2{opacity:0.1;}
+    .cls-3,.cls-4,.community-svg-orange,.community-svg-purple,.community-svg-blue{fill:none;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4.45px;}
+    .cls-3{stroke:#929497;}
+    .cls-4{stroke:#6e7074;}
+    .community-svg-orange{stroke:#f66a0a;}
+    .community-svg-orange,.community-svg-purple,.community-svg-blue{mix-blend-mode:multiply;}
+    .community-svg-purple{stroke:#6f42c1;}
+    .community-svg-blue{stroke:#006eeb;}
+    </style>
+  </defs>
+
+
+
+  </div>
+
+
+
+
+<link crossorigin="anonymous" href="../static/css/sweetalert.css" media="all" rel="stylesheet">
+<script src="../static/js/sweetalert.min.js"></script> 
+
+    <script src="../static/js/jquery-3.1.1.min.js"></script>
+    <script src="../static/js/signup.js"></script>
+    
+    
+
+
+  
+
+
+</body></html>

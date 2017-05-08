@@ -1,2 +1,10 @@
-.DS_Store
 *.pyc
+.idea/
+app.db
+*.aux
+*.log
+*.synctex.gz
+*.tex.bak
+*.tex.sav
+*.vsdx
+*.synctex.gz(busy)
